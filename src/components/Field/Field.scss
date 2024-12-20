@@ -1,0 +1,20 @@
+.containerField {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #6b7280;
+  }
+  input {
+    padding: 1rem;
+    width: 26rem;
+    border-radius: 12px;
+    height: 4rem;
+    border: 1px solid #e5e7eb;
+    &:focus {
+      border-color: #2eadba; /* Change to teal when focused */
+    }
+  }
+}
